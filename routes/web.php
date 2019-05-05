@@ -24,8 +24,9 @@ Route::get('/', function () {
 });
 
 
-
-Route::get('shop/index', 'HomeController@honut_products')->name('home');
+Route::get('shop/index', 'HonutController@honut_products')->name('home');
+Route::get('about/index', 'HonutController@about')->name('home');
+Route::get('contact/index', 'HonutController@contact')->name('home');
 
 Auth::routes();
 

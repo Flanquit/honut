@@ -105,10 +105,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                              <hr>
                             
                              <nav>
-                             <a class="" href="../shop/index">Products</a>
-                              <a class="" href="../how-it-works/index">About Us</a>
+                             <a class="" href="{{URL::asset('shop/index')}}">Products</a>
+                              <a class="" href="{{URL::asset('about/index')}}">About Us</a>
                             
-                              <a class="" href="../contact/index">Contact</a>
+                          
+                              <a class="" href="{{URL::asset('contact/index')}}">Contact</a>
                              </nav>
                              <hr>
             
@@ -185,6 +186,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             </p>
                         @else 
                         <p id="productName">You have no Products</p>
+                          <p class="product woocommerce add_to_cart_inline " style="border:4px solid #ccc; padding: 12px;">
+                                <div class="add-to-cart-container">
+                                    <a href="../pdf/honut_company_profile.pdf" target="_blank" rel="nofollow" data-product_id="12" data-product_sku="CL-NAM03" data-quantity="1" class="button red btn btn-outline-primary btn-block "> Download Company Profile</a>
+                                </div>
+                            </p>
 
                         @endif
 
