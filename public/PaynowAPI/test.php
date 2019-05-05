@@ -1,0 +1,1 @@
+https://www.paynow.co.zw/payment/link/alflanquit@gmail.com?q=arguments
